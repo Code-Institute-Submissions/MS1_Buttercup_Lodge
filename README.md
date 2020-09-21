@@ -1,5 +1,15 @@
-# Buttercup Lodge - Fictitious website built for education purposes
+# Buttercup Lodge - by Michael McCann
 
-Bed and Breakfast establishment initially called **The Buttercup B 'n' B** approach me with the task of completely updating their website and giving them a brand new logo. Before I started anything, I made the suggestion to the owners if I could change the name as The Buttercup B 'n' B didn't particulary roll off the tongue. They were delighted with the new purposed name of, **Buttercup Lodge**. The word "*lodge*" feels welcoming, cosier and much more inviting than B 'n' B. 
+## Fictitious website and case studies created for education purposes.
 
-We spoke at length about how I could help them and their brand.
+Bed and Breakfast establishment initially called **The Buttercup B 'n' B** approach me with the task of completely updating their website and giving them a brand new logo. Before I started anything, I made the suggestion to the owners if I could change the name as The Buttercup B 'n' B didn't particulary roll off the tongue. They were more than happy with me to go ahead with it and were delighted with the new purposed name of, **Buttercup Lodge**. The word "*lodge*" feels welcoming, cosier and much more inviting than B 'n' B. Luckily, for me they had no business cards printed.
+
+We spoke at length about how I could help them and agreed on the below.
+
+<ol>
+    <li>To give them a clean crisp logo.</li>
+    <li>To build them an elagant website that will attract new customers and to bring.</li>
+    <li>To help them build on their web rankings.</li>
+</ol>
+
+The website will have a **Home**, an **Accomodation**, a **Contact** and a **Book Now** section.
