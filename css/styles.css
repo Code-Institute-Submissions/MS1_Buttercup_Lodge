@@ -32,8 +32,10 @@ h1, h2, h3 {
     font-family:"Merriweather", Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     text-align: center;
-    color: rgb(61, 61, 61);
-/*    background-color: indigo;*/
+    color: ivory;
+    letter-spacing: 5px;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, .5);
 
     margin: 0 auto;
     padding: .5em;
@@ -53,7 +55,30 @@ h1, h2, h3 {
     width: 100%;
 }
 
-/*.hero_image_overlay {
+.nav {
+    list-style: none;
+    background-color: #444444;
+    padding: 6px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    font-family:"Merriweather", Georgia, 'Times New Roman', Times, serif;
+    color: ivory;
+    margin-top: .2rem;
+    font-size: 1.2rem;
+}
+
+.nav a {
+    color: #fffff0;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    border-bottom: 5px solid #4d6805;
+}
+
+/* .hero_image_overlay {
     position: absolute;
     height: 100%;
     width: 100%;

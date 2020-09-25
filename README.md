@@ -13,3 +13,9 @@ We spoke at length about how I could help them and agreed on the below.
 </ol>
 
 The website will have a **Home**, an **Accomodation**, a **Contact** and a **Book Now** section.
+
+
+Used https://loremipsum.io/generator/ to generate dummy text.
+
+Read https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing to find out best practices for code struture.
+
