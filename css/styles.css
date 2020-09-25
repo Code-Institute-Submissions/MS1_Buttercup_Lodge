@@ -1,18 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
+/* ---- GENERAL STYLES START ---- */
+
 body {
     background-color: ivory;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.covidcharter {
-    text-align: center;
-    margin: 0 auto;
+h1, h2, h3 {
+    font-family:"Merriweather", Georgia, 'Times New Roman', Times, serif;    
 }
+
+/* ---- GENERAL STYLES END ---- */
+
+
+/* ---- SITEWIDE START ---- */
 
 .top_contact_bar {
     background-color: rgb(61, 61, 61); 
@@ -22,7 +29,7 @@ body {
 }
 
 #logo {
-    font-family:"Galada", Georgia, 'Times New Roman', Times, serif;
+    font-family:"Merriweather", Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     text-align: center;
     color: rgb(61, 61, 61);
@@ -53,3 +60,10 @@ body {
     background: rgba(0,0,0,0.6);
 }
 */
+
+/* ---- SITEWIDE END ---- */
+
+.covidcharter {
+    text-align: center;
+    margin: 0 auto;
+}
