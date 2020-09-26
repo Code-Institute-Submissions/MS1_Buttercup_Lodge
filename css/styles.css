@@ -55,28 +55,35 @@ h1, h2, h3 {
     width: 100%;
 }
 
-.nav {
-    list-style: none;
+.navbar {
     background-color: #444444;
-    padding: 6px;
-    margin: 0 auto;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.nav-item {
-    font-family:"Merriweather", Georgia, 'Times New Roman', Times, serif;
-    color: ivory;
-    margin-top: .2rem;
-    font-size: 1.2rem;
-}
-
-.nav a {
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #fffff0;
-    text-decoration: none;
 }
 
-.nav a:hover {
-    border-bottom: 5px solid #4d6805;
+.hvr-border-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  box-shadow: inset 0 0 0 2px #666666 ;
+  /* Hack to improve aliasing on mobile/tablet devices */
 }
+.hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
+  box-shadow: inset 0 0 0 2px ivory, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+
+
 
 /* .hero_image_overlay {
     position: absolute;
