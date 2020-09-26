@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Kaushan+Script&display=swap');
+
 
 * {
     margin: 0;
@@ -9,11 +10,11 @@
 
 body {
     background-color: ivory;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: "Epilogue", Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3 {
-    font-family:"Merriweather", Georgia, 'Times New Roman', Times, serif;    
+    font-family: Georgia, 'Times New Roman', Times, serif;    
 }
 
 /* ---- GENERAL STYLES END ---- */
@@ -29,12 +30,11 @@ h1, h2, h3 {
 }
 
 #logo {
-    font-family:"Merriweather", Georgia, 'Times New Roman', Times, serif;
+    font-family: "Kaushan Script", serif;
     font-size: 3rem;
     text-align: center;
     color: ivory;
     letter-spacing: 5px;
-    font-style: italic;
     background-color: rgba(0, 0, 0, .5);
 
     margin: 0 auto;
