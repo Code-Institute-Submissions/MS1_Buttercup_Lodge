@@ -9,11 +9,13 @@
 /* ---- GENERAL STYLES START ---- */
 
 body {
+    color: #666;
     background-color: ivory;
     font-family: "Epilogue", Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3 {
+    color: #666;
     font-family: Georgia, 'Times New Roman', Times, serif;    
 }
 
@@ -27,6 +29,10 @@ h1, h2, h3 {
     color: ivory;
     text-align: center;
     padding: .5em;
+}
+
+.top_contact_bar hr {
+    background-color: ivory;
 }
 
 #logo {
@@ -114,6 +120,15 @@ h1, h2, h3 {
 */
 
 /* ---- SITEWIDE END ---- */
+
+.about-buttercup {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.about-buttercup h1 {
+    margin-bottom: 1.5rem;
+}
 
 .covidcharter {
     text-align: center;
