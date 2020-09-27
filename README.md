@@ -20,3 +20,5 @@ Used https://loremipsum.io/generator/ to generate dummy text.
 Read https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing to find out best practices for code struture.
 
 Used hover.css
+
+Used https://css-tricks.com/adding-stroke-to-web-text/ to give logo an outline
