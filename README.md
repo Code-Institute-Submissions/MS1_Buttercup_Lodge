@@ -22,3 +22,9 @@ Read https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizi
 Used hover.css
 
 Used https://css-tricks.com/adding-stroke-to-web-text/ to give logo an outline
+
+Used https://compressjpeg.com/ to compress images
+
+Used https://picresize.com/en/results to resize images
+
+Intro text adapted from https://www.clontarfcastle.ie/

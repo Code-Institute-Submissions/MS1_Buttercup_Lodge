@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Kaushan+Script&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +11,7 @@ body {
     color: #666;
     background-color: ivory;
     font-family: "Epilogue", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 
 h1, h2, h3 {
@@ -121,12 +121,15 @@ h1, h2, h3 {
 
 /* ---- SITEWIDE END ---- */
 
-.about-buttercup {
+.intro {
+    margin: 0 auto;
+    width: 75%;
+    line-height: 1.8rem;
     margin-top: 2rem;
     text-align: center;
 }
 
-.about-buttercup h1 {
+.intro h1 {
     margin-bottom: 1.5rem;
 }
 
