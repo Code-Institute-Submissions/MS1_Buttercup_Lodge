@@ -12,6 +12,7 @@ body {
     background-color: ivory;
     font-family: "Epilogue", Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    line-height: 1.8rem;
 }
 
 h1, h2, h3 {
@@ -121,10 +122,12 @@ h1, h2, h3 {
 
 /* ---- SITEWIDE END ---- */
 
+
+/* ---- INTRO TEXT START ---- */
+
 .intro {
     margin: 0 auto;
     width: 75%;
-    line-height: 1.8rem;
     margin-top: 2rem;
     text-align: center;
 }
@@ -137,3 +140,21 @@ h1, h2, h3 {
     text-align: center;
     margin: 0 auto;
 }
+
+/* ---- INTRO TEXT END ---- */
+
+
+/* ---- QUOTES STYLES START ---- */
+
+.text-heading {
+    color: #ac7e02;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.quoted-by {
+    color: #ac7e02;
+    text-transform: uppercase;
+}
+
+/* ---- QUOTES STYLES END ---- */
