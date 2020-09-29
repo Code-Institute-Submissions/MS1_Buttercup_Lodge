@@ -128,7 +128,7 @@ h1, h2, h3 {
 .intro {
     margin: 0 auto;
     width: 75%;
-    margin-top: 2rem;
+    margin-top: 3.5em;
     text-align: center;
 }
 
@@ -136,15 +136,41 @@ h1, h2, h3 {
     margin-bottom: 1.5rem;
 }
 
-.covidcharter {
-    text-align: center;
-    margin: 0 auto;
+#center-about {
+    margin:0 auto;
+    margin-top: 3.5em;
+}
+
+#circle-container {
+    width: 500px;
+    height: 500px;
+
+    padding:30px;
+
+    background-color: white;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+
+}
+ 
+#circle-cover-bg {
+    background: url("../assets/images/ivyinn.jpg") no-repeat center center;
+    background-size: cover;
+    height:100%;
+    border-radius: 50%;
 }
 
 /* ---- INTRO TEXT END ---- */
 
 
 /* ---- QUOTES STYLES START ---- */
+
+.container-wrapper {
+    margin-top: 3.5em;
+}
 
 .text-heading {
     color: #ac7e02;
