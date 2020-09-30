@@ -26,7 +26,8 @@ h1, h2, h3 {
 /* ---- SITEWIDE START ---- */
 
 .top_contact_bar {
-    background-color: rgb(61, 61, 61); 
+    background-color: #451c66;
+/*    background-color: rgb(61, 61, 61); */
     color: ivory;
     text-align: center;
     padding: .5em;
@@ -67,7 +68,8 @@ h1, h2, h3 {
 }
 
 .navbar {
-    background-color: #444444;
+    background-color: #451c66;
+/*    background-color: #444444;*/
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     padding: 1em; 
 }
@@ -189,7 +191,8 @@ h1, h2, h3 {
 /* ---- FOOTER STYLES START ---- */
 
 footer {
-    background-color: #444;
+    background-color: #451c66;
+/*    background-color: #444;*/
     margin-top: 9rem;
     padding: 3rem;
     color: #ccc;
@@ -215,7 +218,8 @@ footer h3 {
     line-height: 7px;
     text-align: center;
     color: ivory;
-    background: #666666;
+    background-color: #2f1446;
+/*    background: #666666;*/
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -223,7 +227,33 @@ footer h3 {
 }
 
 .social-links li a i:hover {
-    background: #ac7e02;
+    background-color: #8057a1;
+    /*background: #ac7e02;*/
+}
+
+.footernav ul {
+    border-right: 1px ivory solid;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footernav li {
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%;
+}
+
+.footernav a {
+    text-decoration: none;
+    color: ivory;
+    display: block;
+}
+
+.footernav a:hover {
+    border-bottom: 3px #2f1446 solid;
 }
 
 /* ---- FOOTER STYLES END ---- */
