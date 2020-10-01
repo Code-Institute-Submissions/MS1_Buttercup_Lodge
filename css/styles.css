@@ -85,6 +85,8 @@ h1, h2, h3 {
     width: 100vw;
 }
 
+/* ---- NAVBAR START ---- */
+
 .navbar {
     background-color: #451c66;
 /*    background-color: #444444;*/
@@ -133,6 +135,7 @@ h1, h2, h3 {
   transform: translateY(0);
 }
 
+/* ---- NAVBAR END ---- */
 
 /* .hero_image_overlay {
     position: absolute;
@@ -214,16 +217,22 @@ footer {
     background-color: #451c66;
 /*    background-color: #444;*/
     margin-top: 9rem;
-    padding: 3rem;
-    color: #ccc;
-    text-align: center;
+    padding-top: 1rem;
+    color: ivory;
 }
 
 footer h3 {
-    color: #ccc;
-    font-family: "Kaushan Script", serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 3px;
+    color: ivory;
 }
+
+.inline-block {
+    font-family: "Epilogue", Arial, Helvetica, sans-serif;
+}
+
+
+/* ---- FOOTER LINKS START ---- */
 
 .social-links {
     padding-bottom: 15px;
@@ -275,5 +284,7 @@ footer h3 {
 .footernav a:hover {
     border-bottom: 3px #2f1446 solid;
 }
+
+/* ---- FOOTER LINKS END ---- */
 
 /* ---- FOOTER STYLES END ---- */
