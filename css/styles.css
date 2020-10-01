@@ -26,8 +26,7 @@ h1, h2, h3 {
 /* ---- SITEWIDE START ---- */
 
 .top_contact_bar {
-    background-color: #451c66;
-/*    background-color: rgb(61, 61, 61); */
+    background-color: rgb(61, 61, 61);
     color: ivory;
     text-align: center;
     padding: .5em;
@@ -88,8 +87,8 @@ h1, h2, h3 {
 /* ---- NAVBAR START ---- */
 
 .navbar {
-    background-color: #451c66;
-/*    background-color: #444444;*/
+    background-color: #444444;
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;    
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -119,7 +118,7 @@ h1, h2, h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(196, 48, 183);
+  background: ivory;
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -167,8 +166,8 @@ h1, h2, h3 {
 }
 
 #circle-container {
-    width: 500px;
-    height: 500px;
+    width: 40rem;
+    height: 40rem;
 
     padding:30px;
 
@@ -177,8 +176,7 @@ h1, h2, h3 {
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
-    margin:0 auto;
-
+    margin: 0 auto;
 }
  
 #circle-cover-bg {
@@ -214,8 +212,7 @@ h1, h2, h3 {
 /* ---- FOOTER STYLES START ---- */
 
 footer {
-    background-color: #451c66;
-/*    background-color: #444;*/
+    background-color: #444;
     margin-top: 9rem;
     padding-top: 1rem;
     color: ivory;
@@ -247,8 +244,7 @@ footer h3 {
     line-height: 7px;
     text-align: center;
     color: ivory;
-    background-color: #2f1446;
-/*    background: #666666;*/
+    background: #666666;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -256,35 +252,17 @@ footer h3 {
 }
 
 .social-links li a i:hover {
-    background-color: #8057a1;
+    background-color: #ccc;
     /*background: #ac7e02;*/
-}
-
-.footernav ul {
-    border-right: 1px ivory solid;
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.footernav li {
-    line-height: 40px;
-    height: 40px;
-    display: inline-block;
-    margin: 2.5%;
-}
-
-.footernav a {
-    text-decoration: none;
-    color: ivory;
-    display: block;
-}
-
-.footernav a:hover {
-    border-bottom: 3px #2f1446 solid;
 }
 
 /* ---- FOOTER LINKS END ---- */
 
+footer {
+    width: 100%;
+}
+
 /* ---- FOOTER STYLES END ---- */
+
+
+/* ---- MEDIA QUERIES ---- */
