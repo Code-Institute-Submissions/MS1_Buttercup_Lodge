@@ -32,6 +32,15 @@ h1, h2, h3 {
     padding: .5em;
 }
 
+.top_contact_bar a {
+    color: ivory;
+}
+
+.top_contact_bar a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
 .top_contact_bar hr {
     background-color: ivory;
 }
