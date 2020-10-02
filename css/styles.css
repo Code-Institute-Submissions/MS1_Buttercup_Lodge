@@ -92,6 +92,18 @@ h1, h2, h3 {
     height: 100vh;
 }
 
+#hero_image_accomodation {
+    background: url(" ../assets/images/bedroom.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+
+    height: 100vh;
+}
+
 /* ---- NAVBAR START ---- */
 
 .navbar {
@@ -187,6 +199,13 @@ h1, h2, h3 {
  
 #circle-cover-bg {
     background: url("../assets/images/ivyinn.jpg") no-repeat center center;
+    background-size: cover;
+    height:100%;
+    border-radius: 50%;
+}
+
+#circle-cover-bg-accomodation {
+    background: url("../assets/images/bedroom2.jpg") no-repeat center center;
     background-size: cover;
     height:100%;
     border-radius: 50%;
