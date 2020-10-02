@@ -80,7 +80,7 @@ h1, h2, h3 {
     color: ivory;
 }
 
-#hero_image {
+#hero_image_home {
     background: url(" ../assets/images/buttercup_lodge.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -90,7 +90,6 @@ h1, h2, h3 {
     position: relative;
 
     height: 100vh;
-    width: 100vw;
 }
 
 /* ---- NAVBAR START ---- */
