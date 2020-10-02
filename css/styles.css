@@ -150,10 +150,9 @@ h1, h2, h3 {
 /* ---- INTRO TEXT START ---- */
 
 .intro {
+    padding: 1rem;
     margin: 0 auto;
-    width: 75%;
     margin-top: 3.5em;
-    text-align: center;
 }
 
 .intro h1 {
@@ -268,10 +267,8 @@ footer {
 
 @media(max-width: 992px) {
     #circle-container {
-    width: 20em;
-    height: 20em;
-    padding:30px;
-    margin-left: 0;
+    width: 18em;
+    height: 18em;
 
     background-color: white;
     border-style: solid;
@@ -280,4 +277,22 @@ footer {
     border-radius: 50%;
     margin: 0 auto;
 }
+
+#logo {
+    font-family: "Kaushan Script", serif;
+    font-size: 4rem;
+    text-align: center;
+    color: ivory;
+    /*background-color: rgba(0, 0, 0, .5);*/ 
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #666;
+
+    text-shadow: 2px 2px 8px ivory;
+
+    margin: 0 auto;
+    padding: .5em;
+    margin-bottom: 150px;
+}
+
 }
