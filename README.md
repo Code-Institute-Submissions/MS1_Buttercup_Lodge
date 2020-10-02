@@ -28,3 +28,5 @@ Used https://compressjpeg.com/ to compress images
 Used https://picresize.com/en/results to resize images
 
 Intro text adapted from https://www.clontarfcastle.ie/
+
+Used https://www.campaignmonitor.com/resources/knowledge-base/how-do-you-add-a-subject-to-a-mailto/ to find out how to generate an automatic subject line.

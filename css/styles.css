@@ -229,6 +229,15 @@ footer h3 {
 
 /* ---- FOOTER LINKS START ---- */
 
+footer a {
+    color: ivory;
+}
+
+footer a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
 .social-links {
     padding-bottom: 15px;
 }
@@ -257,7 +266,7 @@ footer h3 {
 /* ---- FOOTER LINKS END ---- */
 
 footer {
-    width: 100%;
+    font-size: .8rem;
 }
 
 /* ---- FOOTER STYLES END ---- */
