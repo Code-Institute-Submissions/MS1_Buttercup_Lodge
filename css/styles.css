@@ -175,7 +175,7 @@ h1, h2, h3 {
     margin-top: 3.5em;
 }
 
-.intro h1 {
+.intro h1, h2{
     margin-bottom: 1.5rem;
 }
 
@@ -211,8 +211,18 @@ h1, h2, h3 {
     border-radius: 50%;
 }
 
+
 /* ---- INTRO TEXT END ---- */
 
+
+/* ---- CAROUSEL STYLES ---- */
+
+.carousel-inner {
+    margin-top: 3.4rem;
+    height: 100vh;
+}
+
+/* ---- CAROUSEL STYLES END ---- */
 
 /* ---- QUOTES STYLES START ---- */
 
@@ -302,33 +312,39 @@ footer {
 /* ---- MEDIA QUERIES ---- */
 
 @media(max-width: 992px) {
-    #circle-container {
-    width: 18em;
-    height: 18em;
+        #circle-container {
+        width: 18em;
+        height: 18em;
 
-    background-color: white;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+        background-color: white;
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 1px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    #logo {
+        font-family: "Kaushan Script", serif;
+        font-size: 4rem;
+        text-align: center;
+        color: ivory;
+        /*background-color: rgba(0, 0, 0, .5);*/ 
+
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #666;
+
+        text-shadow: 2px 2px 8px ivory;
+
+        margin: 0 auto;
+        padding: .5em;
+        margin-bottom: 150px;
+    }
 }
 
-#logo {
-    font-family: "Kaushan Script", serif;
-    font-size: 4rem;
-    text-align: center;
-    color: ivory;
-    /*background-color: rgba(0, 0, 0, .5);*/ 
-
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #666;
-
-    text-shadow: 2px 2px 8px ivory;
-
-    margin: 0 auto;
-    padding: .5em;
-    margin-bottom: 150px;
-}
-
+@media(min-width: 320px) {
+    .carousel-inner {
+        margin-top: 3.4rem;
+        height: 14rem;
+    }
 }
