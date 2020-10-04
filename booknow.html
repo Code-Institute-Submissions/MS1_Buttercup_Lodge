@@ -75,26 +75,64 @@
 					<form>
                         <div class="form-group">
 							<label for="exampleInputFirstName1">First Name</label>
-							<input type="FirstName" class="form-control" id="exampleInputFirstName1" aria-describedby="emailHelp">
+							<input type="FirstName" class="form-control" id="exampleInputFirstName1" aria-describedby="emailHelp" required>
 						</div>
                         <div class="form-group">
 							<label for="exampleInputLastName1">Last Name</label>
-							<input type="LastName" class="form-control" id="exampleInputLastName1" aria-describedby="emailHelp">
+							<input type="LastName" class="form-control" id="exampleInputLastName1" aria-describedby="emailHelp" required>
 						</div>
 						<div class="form-group">
 							<label for="exampleInputEmail1">Email Address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
+                         <div class="form-group">
+                            <label for="exampleFormControlSelect1">How Many Nights Do You Wish To Stay?</label>
+                            <select class="form-control" id="exampleFormControlSelect1" required>
+                                <option>1 Night</option>
+                                <option>2 Nights</option>
+                                <option>3 Nights</option>
+                                <option>4 Nights</option>
+                                <option>5 Nights</option>
+                                <option>6 Nights</option>
+                                <option>7 Nights</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
 						<div class="form-group">
                             <label for="exampleInputVisitDate1">When Would You Like To Visit?</label>
-                            <input type="Date" class="form-control" id="exampleInputVisitDate1" aria-describedby="emailHelp">
+                            <input type="Date" class="form-control" id="exampleInputVisitDate1" aria-describedby="emailHelp" required>
                         </div>
-							<div class="form-group form-check">
-								<input type="checkbox" class="form-check-input" id="exampleCheck1">
-								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
+                            <p>Please Select Your Room Type - All Our Bedrooms are en-suite.</p>
+							<div class="form-check">
+                            <input class="form-check-input" type="radio" name="deluxeDoubleRadios" id="deluxeDoubleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="deluxeDoubleRadios1">
+                                Deluxe Double
+                            </label>
+                            </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="doubleRoomRadios" id="doubleRoomRadios2" value="option2">
+                            <label class="form-check-label" for="doubleRoomRadios2">
+                                Double Room
+                            </label>
+                            </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="accessibleRoomRadios" id="accessibleRoomRadios3" value="option3">
+                            <label class="form-check-label" for="accessibleRoomRadios3">
+                                Accessible Room
+                            </label>
+                            </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="familyRoomRadios" id="familyRoomRadios4" value="option4">
+                            <label class="form-check-label" for="familyRoomRadios4">
+                                Family Room
+                            </label>
+                            </div>
+                            <label for="textarea">Any aditional requirments you may need please let us know.</label>
+                                <textarea class="form-control" id="textarea"></textarea>
+                            <p></p>
+							<button type="submit" class="btn btn-success">Submit</button>
+                            <button type="reset" class="btn btn-danger">Reset Form</button>
 					</form>
 				</p>
 				<hr>
