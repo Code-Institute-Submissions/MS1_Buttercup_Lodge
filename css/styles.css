@@ -20,6 +20,10 @@ h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;    
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* ----------------------------------------------------------- GENERAL STYLES END ---- */
 
 
@@ -96,7 +100,7 @@ h1, h2, h3 {
 
     position: relative;
 
-    height: 100vh;
+    height: 90vh;
 }
 
 #hero_image_accomodation {
@@ -108,7 +112,7 @@ h1, h2, h3 {
 
     position: relative;
 
-    height: 100vh;
+    height: 90vh;
 }
 
 #hero_image_booknow {
@@ -120,7 +124,7 @@ h1, h2, h3 {
 
     position: relative;
 
-    height: 100vh;
+    height: 90vh;
 }
 
 #hero_image_contact {
@@ -132,7 +136,7 @@ h1, h2, h3 {
 
     position: relative;
 
-    height: 100vh;
+    height: 90vh;
 }
 
 /* ---- Hero images styles end ---- */
