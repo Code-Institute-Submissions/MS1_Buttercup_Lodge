@@ -53,29 +53,19 @@ ul {
 /* ---- Logo styles ---- */
 
 #logo {
-    font-family: "Kaushan Script", serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 5rem;
     text-align: center;
     color: ivory;
     /*background-color: rgba(0, 0, 0, .5);*/ 
 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #666;
-
-    text-shadow: 2px 2px 8px ivory;
-
     margin: 0 auto;
-    padding: .5em;
-    margin-bottom: 150px;
+    margin-bottom: 2rem;
+    padding: 0;
 }
 
 #logo a {
     color: ivory;
-
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #666;
-
-    text-shadow: 2px 2px 8px ivory;
 }
 
 #logo a:hover {
@@ -90,6 +80,18 @@ ul {
 /* ---- Logo styles end ---- */
 
 /* ---- Hero images styles ---- */
+
+ .hero_text {
+     text-align: center;
+     color: ivory;
+ }
+ 
+ .hero_image_overlay {
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.582);
+}
 
 #hero_image_home {
     background: url(" ../assets/images/buttercup_lodge.jpg") no-repeat center center;
@@ -192,13 +194,6 @@ ul {
 
 /* ---- Navbar styles end ---- */
 
-/* .hero_image_overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: rgba(0,0,0,0.6);
-}
-*/
 
 /* ----------------------------------------------------------- SITEWIDE END ---- */
 
@@ -407,19 +402,12 @@ footer {
     }
 
     #logo {
-        font-family: "Kaushan Script", serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 4rem;
         text-align: center;
         color: ivory;
         /*background-color: rgba(0, 0, 0, .5);*/ 
-
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: #666;
-
-        text-shadow: 2px 2px 8px ivory;
-
         margin: 0 auto;
         padding: .5em;
-        margin-bottom: 150px;
     }
 }
