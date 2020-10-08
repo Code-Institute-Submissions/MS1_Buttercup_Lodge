@@ -30,6 +30,12 @@ ul {
 /* ----------------------------------------------------------- SITEWIDE START ---- */
 /* ---- Styles for navbar, logo and hero images located here ---- */
 
+.hero_image_overlay {
+    height: 30%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.582);
+}
+
 .top_contact_bar {
     background-color: rgb(61, 61, 61);
     color: ivory;
@@ -57,13 +63,8 @@ ul {
     font-size: 5rem;
     text-align: center;
     color: ivory;
-    background: rgba(0, 0, 0, 0.582);
-
-    /*background-color: rgba(0, 0, 0, .5);*/ 
-
     margin: 0 auto;
-    margin-bottom: 2rem;
-    padding: 0;
+    padding-bottom: 2rem;
 }
 
 #logo a {
@@ -85,6 +86,7 @@ ul {
 
  .hero_text {
      text-align: center;
+     padding: .5rem;
      color: ivory;
      background: rgba(0, 0, 0, 0.582);
  }
@@ -148,7 +150,7 @@ ul {
 /* ---- Navbar styles ---- */
 
 .navbar {
-    background-color: #444444;
+    background-color: #222121;
     font-family: Georgia, 'Times New Roman', Times, serif;    
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -405,19 +407,18 @@ footer {
 
     #logo {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 4rem;
+        font-size: 3.5rem;
         text-align: center;
         color: ivory;
-        background: rgba(0, 0, 0, 0.582);
-
+  
         /*background-color: rgba(0, 0, 0, .5);*/ 
         margin: 0 auto;
         padding: .5em;
     }
  
-  /*  .hero_image_overlay {
-        height: 30%;
+   .hero_image_overlay {
+        height: 45%;
         width: 100%;
         background: rgba(0, 0, 0, 0.582);
-    }*/
+    }
 }
