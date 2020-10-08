@@ -57,6 +57,8 @@ ul {
     font-size: 5rem;
     text-align: center;
     color: ivory;
+    background: rgba(0, 0, 0, 0.582);
+
     /*background-color: rgba(0, 0, 0, .5);*/ 
 
     margin: 0 auto;
@@ -84,14 +86,14 @@ ul {
  .hero_text {
      text-align: center;
      color: ivory;
+     background: rgba(0, 0, 0, 0.582);
  }
  
- .hero_image_overlay {
-    position: absolute;
+/* .hero_image_overlay {
     height: 40%;
     width: 100%;
     background: rgba(0, 0, 0, 0.582);
-}
+}*/
 
 #hero_image_home {
     background: url(" ../assets/images/buttercup_lodge.jpg") no-repeat center center;
@@ -406,8 +408,16 @@ footer {
         font-size: 4rem;
         text-align: center;
         color: ivory;
+        background: rgba(0, 0, 0, 0.582);
+
         /*background-color: rgba(0, 0, 0, .5);*/ 
         margin: 0 auto;
         padding: .5em;
     }
+ 
+  /*  .hero_image_overlay {
+        height: 30%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.582);
+    }*/
 }
