@@ -158,8 +158,8 @@ ul {
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 2.5rem;
-        padding-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
     }
 
 /* Underline Reveal */
@@ -205,13 +205,20 @@ ul {
 /* ----------------------------------------------------------- INTRO TEXT START ---- */
 /* ---- Styles included for index.html, accomodation.html, booknow.html and contact.html in here ---- */
 
+.intro-heading {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
 .intro {
     padding: 1rem;
     margin: 0 auto;
     margin-top: 3.5em;
 }
 
-.intro h1, h2{
+.intro h1, h2 {
     margin-bottom: 1.5rem;
 }
 
@@ -263,7 +270,7 @@ ul {
 
 /* ---- Book Now! button styles for Accomodation page ---- */
 #booknow {
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 2rem;
     background-color: #ac7e02;
     text-align: center;
@@ -294,8 +301,13 @@ ul {
 /* ----------------------------------------------------------- CAROUSEL STYLES ---- */
 
 .carousel-inner {
-    margin-top: 3.4rem;
-  
+    margin-top: 4.4rem;
+}
+
+.carousel-item {
+    height: 650px;
+    margin: 0 auto;
+    border: 9px solid #ccc;
 }
 
 /* ----------------------------------------------------------- CAROUSEL STYLES END ---- */
@@ -421,4 +433,9 @@ footer {
         width: 100%;
         background: rgba(0, 0, 0, 0.582);
     }
+
+    .carousel-inner {
+        height: 200px;
+    }
+
 }

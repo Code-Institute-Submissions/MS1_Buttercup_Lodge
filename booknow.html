@@ -16,10 +16,7 @@
 
 <body>
 
-	<!----------- S I T E W I D E    S T A R T ----------->
-
-<!----- Navbar ---->
-
+<!-- Navbar -->
 	<nav class="navbar navbar-dark navbar-expand-sm sticky-top">
 		<button class="navbar-toggler ml-auto mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,59 +40,55 @@
 			</ul>
 		</div>
 	</nav>
-
-	<!----- Navbar End ---->
+	<!-- Navbar End -->
     
-		<header>
+	<header>
+    	<!-- Hero Image -->
 		<div id="hero_image_booknow">
 			<div class="hero_image_overlay">
-                <h1 id="logo">
-					<a href="index.html"> Buttercup Lodge </a>
-                    <h4 class="text-center text-warning"><em>Donegal, Ireland.</em></h4>
-				</h1>
+                <h1 id="logo"><a href="index.html"> Buttercup Lodge </a></h1>
+                <h4 class="text-center text-warning"><em>Donegal, Ireland.</em></h4>
             </div>
 		</div>
-	</header>
-
-
-	<!----------- S I T E W I D E    E N D ----------->
-	
+        <!-- Hero Image End -->
+	</header>	
     
+    <!-- Booking Form -->
 	<div class="col-sm">
 		<div class="row">
 			<section class="intro">
-				<h1 class="text-center">Book Now!</h1>
-				<p class="text-center">
+				<h2 class="intro-heading">Book Now!</h2>
 					<form>
                         <div class="form-group">
-							<label for="exampleInputFirstName1">First Name</label>
-							<input type="FirstName" class="form-control" id="exampleInputFirstName1" aria-describedby="emailHelp" required>
+							<label for="FirstName">First Name</label>
+							<input type="text" class="form-control" id="FirstName" aria-describedby="emailHelp" required>
 						</div>
                         <div class="form-group">
-							<label for="exampleInputLastName1">Last Name</label>
-							<input type="LastName" class="form-control" id="exampleInputLastName1" aria-describedby="emailHelp" required>
+							<label for="LastName">Last Name</label>
+							<input type="text" class="form-control" id="LastName" aria-describedby="emailHelp" required>
 						</div>
 						<div class="form-group">
-							<label for="exampleInputEmail1">Email Address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+							<label for="InputEmail">Email Address</label>
+							<input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required>
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
                          <div class="form-group">
-                            <label for="exampleFormControlSelect1">How Many Nights Do You Wish To Stay?</label>
-                            <select class="form-control" id="exampleFormControlSelect1" required>
-                                <option>1 Night</option>
-                                <option>2 Nights</option>
-                                <option>3 Nights</option>
-                                <option>4 Nights</option>
-                                <option>5 Nights</option>
-                                <option>6 Nights</option>
-                                <option>7 Nights</option>
-                                <option>Other</option>
+                            <label for="FormControlSelect">How Many Nights Do You Wish To Stay?</label>
+                            <select class="form-control" id="FormControlSelect" required>
+                                <option value="" disabled selected hidden>Please Select Number Of Nights</option>
+                                <option value="1 night">1 Night</option>
+                                <option value="2 nights">2 Nights</option>
+                                <option value="3 nights">3 Nights</option>
+                                <option value="4 nights">4 Nights</option>
+                                <option value="5 nights">5 Nights</option>
+                                <option value="6 nights">6 Nights</option>
+                                <option value="7 nights">7 Nights</option>
+                                <option value="other">Other</option>
                             </select>
                         </div>
 						<div class="form-group">
-                            <label for="exampleInputVisitDate1">When Would You Like To Visit?</label>
-                            <input type="Date" class="form-control" id="exampleInputVisitDate1" aria-describedby="emailHelp" required>
+                            <label for="InputVisitDate">When Would You Like To Visit?</label>
+                            <input type="Date" class="form-control" id="InputVisitDate" aria-describedby="emailHelp" required>
                         </div>
                             <p>Please Select Your Room Type - All Our Bedrooms are en-suite.</p>
 							<div class="form-check">
@@ -128,8 +121,9 @@
 							<button type="submit" class="btn btn-success">Submit</button>
                             <button type="reset" class="btn btn-danger">Reset Form</button>
 					</form>
-				</p>
 				<hr>
+    <!-- Booking Form End -->
+
 				<div id="center-about">
 					<div id="circle-container">
 						<div id="circle-cover-bg-booknow"></div>
@@ -138,6 +132,8 @@
 			</section>
 		</div>
 	</div>
+
+     <!-- Footer -->
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
 			<div class="col-sm-4 lg-12">
@@ -150,11 +146,10 @@
 			<div class="col-sm-4 lg-12">
 				<h3 class="general-sub">Contact</h3>
 				<p class="inline-block">
-					Phone: <a href="https://wa.me/353861234567" target="_blank">086 1234 567</a>
-					<a href="mailto:info@buttercuplodge.com?subject=I'd like to make a booking enquiry" target="_blank">
-						info@buttercuplodge.com</a><br>
-                                        Co. Donegal, Ireland.
-                                    </p>
+					Phone:<a href="https://wa.me/353861234567" target="_blank">086 1234 567</a>
+					<a href="mailto:info@buttercuplodge.com?subject=I'd%20like%20to%20make%20a%20booking%20enquiry" target="_blank">info@buttercuplodge.com</a>
+                    <br>Co. Donegal, Ireland.
+          </p>
 			</div>
 			<div class="col-sm-4 lg-12">
 				<h3 class="general-sub">Social</h3>
@@ -186,14 +181,8 @@
 				</ul>
 			</div>
 		</div>
-		<!--
-            <nav class="navbar">
-                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">Accomodation</a>
-                <a class="nav-link" href="#">Book Now</a>
-                <a class="nav-link" href="#">Location</a>
-            </nav>-->
 	</footer>
+    <!-- Footer End -->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
