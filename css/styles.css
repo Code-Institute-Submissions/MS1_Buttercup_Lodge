@@ -307,8 +307,7 @@ ul {
 .carousel-item {
     height: 650px;
     margin: 0 auto;
-    border: 9px solid #ccc;
-}
+ }
 
 /* ----------------------------------------------------------- CAROUSEL STYLES END ---- */
 
@@ -413,6 +412,7 @@ footer {
         border-style: solid;
         border-color: #ccc;
         border-width: 1px;
+        padding: 1.2rem;
         border-radius: 50%;
         margin: 0 auto;
     }
