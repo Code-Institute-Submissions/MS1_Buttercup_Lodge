@@ -438,4 +438,13 @@ footer {
         height: 200px;
     }
 
+    a {
+    color: #222121;
+}
+
+    a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
 }
