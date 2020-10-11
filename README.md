@@ -59,7 +59,7 @@ Link to the booking form located <a href="https://mickmccann.github.io/MS1_Butte
 I wanted to create a nice, elagant and ease-of-use website that best reflected the subject matter of a bed and breakfast establishment.
 The colours I chose were based on the homepage image of the cottage. By using the eyedropper tool in Chrome Dev Tools I was able to select a nice palette.
 
-The body colour is Ivory, a very pale yellow colour. This Ivory is not hard on the eyes as the use of plain white tends to be. I also wanted to get it as close to paper as I could.
+The background colour is Ivory, a very pale yellow colour. This Ivory is not hard on the eyes as the use of plain white tends to be. I also wanted to get it as close to paper as I could.
 A nice charcoal grey for the body text and headings complimented the Ivory colour. The navbar is almost black but again for contrast reasons it's not 100% black.
 
 ### Body Styles
@@ -72,8 +72,9 @@ A nice charcoal grey for the body text and headings complimented the Ivory colou
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 ### Navbar Hover
-    Initially I just had a regular hover effect where by the colour just snaps off and then I was reminded of the nice effects on <a href="https://ianlunn.github.io/Hover/" target="_blank">Hover.css.</a>
-    So for the effect on my navbar, I used "Underline Reveal". 
+
+Initially I just had a regular hover effect where by the colour just snaps off and then I was reminded of the nice effects on <a href="https://ianlunn.github.io/Hover/" target="_blank">Hover.css.</a>
+So for the effect on my navbar, I used "Underline Reveal". 
 
 # UX Design
 It's far easier to generate a good UX experience if you keep your design process simple. 
