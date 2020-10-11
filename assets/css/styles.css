@@ -106,7 +106,7 @@ ul {
  }
  
 #hero_image_home {
-    background: url("/assets/images/buttercup_lodge.jpg") no-repeat center center;
+    background: url("../images/buttercup_lodge.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -118,7 +118,7 @@ ul {
 }
 
 #hero_image_accomodation {
-    background: url("/assets/images/bedroom.jpg") no-repeat center center;
+    background: url("../images/bedroom.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -130,7 +130,7 @@ ul {
 }
 
 #hero_image_booknow {
-    background: url("/assets/images/booknow_hero_image.jpg") no-repeat center center;
+    background: url("../images/booknow_hero_image.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -142,7 +142,7 @@ ul {
 }
 
 #hero_image_contact {
-    background: url("/assets/images/contact_hero_image.jpg") no-repeat center center;
+    background: url("../images/contact_hero_image.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -249,28 +249,28 @@ ul {
 }
  
 #circle-cover-bg {
-    background: url("/assets/images/ivyinn.jpg") no-repeat center center;
+    background: url("../images/ivyinn.jpg") no-repeat center center;
     background-size: cover;
     height:100%;
     border-radius: 50%;
 }
 
 #circle-cover-bg-accomodation {
-    background: url("/assets/images/breakfast.jpg") no-repeat center center;
+    background: url("../images/breakfast.jpg") no-repeat center center;
     background-size: cover;
     height:100%;
     border-radius: 50%;
 }
 
 #circle-cover-bg-booknow {
-    background: url("/assets/images/buttercup_village.jpg") no-repeat center center;
+    background: url("../images/buttercup_village.jpg") no-repeat center center;
     background-size: cover;
     height:100%;
     border-radius: 50%;
 }
 
 #circle-cover-bg-contact {
-    background: url("/assets/images/window.jpg") no-repeat center center;
+    background: url("../images/window.jpg") no-repeat center center;
     background-size: cover;
     height:100%;
     border-radius: 50%;
