@@ -93,7 +93,7 @@ For the logo I decicded on a nice serif typeface
 I felt this complimented the style for what I was trying to achieve than the logo I had initially.
 
 
-As you can see from the earlier logo, I got bogged down with feature creep! I was using dropshadows and outline on the text. It didn't look great. 
+As you can see from the earlier logo, I got bogged down with feature creep! I was using dropshadows and outline on the text. It didn't look great.<br> 
 <img src="assets/wireframes/oldlogo.jpg">
 
 ### Body Styles
@@ -120,31 +120,45 @@ HTML5
 CSS3
 
 ## Frameworks, Libraries & Programs Used
-Bootstrap 4.5.0:
+<a href="https://getbootstrap.com/" target="_blank"><strong>Bootstrap</strong></a><br>
 Bootstrap was used to assist with the responsiveness and styling of the website.
-Hover.css:
-Hover.css was used on the navbar items and for social media icons in the footer 
-Google Fonts:
+
+<a href="https://ianlunn.github.io/Hover/" target="_blank"><strong>Hover.css</strong></a><br>
+Hover.css was used on the navbar items and for social media icons in the footer.
+
+<a href="https://fonts.google.com/" target="_blank"><strong>Google Fonts</strong></a><br>
 Google fonts were used to import the 'Epilogue' (main body font) and 'Kaushan Script' (font used for logo at the initial design stage).
-Font Awesome:
+
+<a href="https://fontawesome.com/" target="_blank"><strong>Font Awesome</strong></a><br>
 Font Awesome was used for footer social network links.
-GitPod
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-GitHub:
-GitHub is used to store the projects code after being pushed from Git.
-Balsamiq:
-Balsamiq was used to create the wireframes during the design process.
-Lorem Ipsum:
-Used https://loremipsum.io/generator/ to generate dummy text.
+
+<a href="https://gitpod.io" target="_blank"><strong>GitPod</strong></a><br>
+Development environment used to build the project.<br>
+Git was used for version control.<br>
+
+<a href="https://github.com" target="_blank"><strong>GitHub</strong></a><br>
+GitHub is used to store the projects code after being saved from GitPod and then Pushed from the terminal using Git.
+
+<a href="https://balsamiq.com/wireframes/desktop/" target="_blank"><strong>Balsamiq</strong></a><br>
+Balsamiq was used to create the wireframes.
+
+<a href="https://loremipsum.io/generator/" target="_blank"><strong>Lorem Ipsum</strong></a><br>
+During the building stage Lorem Ipsum was used to generate dummy text.
+
+Used <a href="https://compressjpeg.com/">compressjpeg.com</a> to compress images and used <a href="https://picresize.com/en/results">picresize.com</a> to resize images.
+
+# Documentation and Inspiration
+
+### Sources of Inspiration
+<a href="https://www.abbeytavern.ie/" target="_blank">Abbey Tavern</a><br>
+<a href="https://www.clontarfcastle.ie/" target="_blank">Clontarf Castle</a><br>
+<a href="https://www.awwwards.com/" target="_blank">Awwwards</a><br>
+<a href="https://unsplash.com/" target="_blank">Unsplash.</a> Unsplash was used to source all imagery for the website.
 
 Read https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing to find out best practices for code struture.
-
-
-
-Used https://compressjpeg.com/ to compress images
-
-Used https://picresize.com/en/results to resize images
-
+<br>
 Intro text adapted from https://www.clontarfcastle.ie/
-
-Used https://www.campaignmonitor.com/resources/knowledge-base/how-do-you-add-a-subject-to-a-mailto/ to find out how to generate an automatic subject line.
+<br>
+Read https://www.campaignmonitor.com/resources/knowledge-base/how-do-you-add-a-subject-to-a-mailto/ to find out how to generate an automatic subject line.
+<br>
+Read Bootstraps Documentation on grid, form and menu best practices https://getbootstrap.com/docs/4.5/getting-started/introduction/
