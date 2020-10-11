@@ -75,8 +75,15 @@
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                            <label for="Subject">Subject</label>
-                            <input type="text" class="form-control" id="Subject" aria-describedby="emailHelp" required />
+                            <label for="FormControlSelect">The Nature Of Your Query</label>
+                            <select class="form-control" id="FormControlSelect" required>
+                                <option value="" disabled selected hidden>Please Make A Selection:</option>
+                                <option value="complaint">I wish to make a complaint</option>
+                                <option value="complement">I wish to make a complement</option>
+                                <option value="cost">I have a query about cost</option>
+                                <option value="bedroom">I have a query about the bedrooms</option>
+                                <option value="other">Other</option>
+                            </select>
                         </div>
                         <label for="textarea">How can we help?</label>
                         <textarea class="form-control" id="textarea"></textarea>
