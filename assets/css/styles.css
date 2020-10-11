@@ -112,7 +112,7 @@ ul {
 }*/
 
 #hero_image_home {
-    background: url("/assets/images/buttercup_lodge.jpg") no-repeat center center;
+    background: url("../assets/images/buttercup_lodge.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
