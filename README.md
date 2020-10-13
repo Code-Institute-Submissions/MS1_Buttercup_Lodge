@@ -15,7 +15,7 @@ The aim of this project was to build a responsive static website using HTML5 and
 <a href="http://ami.responsivedesign.is/?url=https%3A%2F%2Fmickmccann.github.io%2FMS1_Buttercup_Lodge%2Findex.html" target="_blank">Image generated using Am I Responsive</a>
 
 
-## A role play one might have with the customers
+## Scope - A role play one might have with the customers
 Bed and Breakfast establishment initially called **The Buttercup B 'n' B** approach me with the task of completely updating their website and giving them a brand new logo. Before I started anything, I made the suggestion to the owners if I could change the name as The Buttercup B 'n' B didn't particulary roll off the tongue. They were more than happy with me to go ahead with it and were delighted with the new purposed name of, **Buttercup Lodge**. The word "*lodge*" feels welcoming, cosier and much more inviting than B 'n' B. Luckily, for me they had no business cards printed.
 
 We spoke at length about how I could help them and agreed on the below.
@@ -27,16 +27,20 @@ We spoke at length about how I could help them and agreed on the below.
     <li>To implement an ease-of-use booking form.</li>
 </ol>
 
+## Skeleton
+
 I went away and developed a few wireframe sketches based on the clients needs. 
 The website will have a **Home**, an **Accomodation**, a **Contact** and a **Book Now** section.
-
+<p>
+The menu will be centred at the top of the pages below will sit a visual striking image. Each page will have its own dedicated hero image. The Home page will have an exterior image of the Lodge, the Accomodation page an image of a bedroom, the contact page will have an image of the location and finally Book Now will have an interior image to entice the website vistor to stay. Hopefully all imagery evokes the visitor to want to stay!
+</p>
 **Please note my wireframe designs differ slightly to my finished design**
 
-<a href src="../assets/wireframes/Buttercup_Lodge_Home.png" target="_blank">Wireframe 1</a>
-<a href src="../assets/wireframes/Buttercup_Lodge_Accomodation.png" target="_blank">Wireframe 2</a>
-<a href src="../assets/wireframes/Buttercup_Lodge_Stay_With_Us.png" target="_blank">Wireframe 3</a>
-<a href src="../assets/wireframes/Tablet_Home_Portrait.png" target="_blank">Wireframe 4</a>
-<a href src="../assets/wireframes/Tablet_Home_Landscape.png" target="_blank">Wireframe 5</a>
+<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Home.png" target="_blank">Wireframe 1</a>
+<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Accomodation.png" target="_blank">Wireframe 2</a>
+<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Stay_With_Us.png" target="_blank">Wireframe 3</a>
+<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Portrait.png" target="_blank">Wireframe 4</a>
+<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Landscape.png" target="_blank">Wireframe 5</a>
 
 
 # User Stories
@@ -74,7 +78,7 @@ It's far easier to generate a good UX experience if you keep your design process
 Link to the booking form located <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/booknow.html" target="_blank">here.</a>
 <img src="assets/wireframes/Booknowscreenshot1.png">
 
-# Design Process
+# Structure - Design Process
 
 I wanted to create a nice, elagant and ease-of-use website that best reflected the subject matter of a bed and breakfast establishment.
 The colours I chose were based on the homepage image of the cottage. By using the eyedropper tool in Chrome Dev Tools I was able to select a nice palette.
@@ -121,6 +125,16 @@ So for the effect on my navbar, I used "Underline Reveal".
     <li>CSS3
     <li>Bootstrap4.5
 </ul>
+
+# Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no errors in the project. There are however a couple of warnings.
+
+<p>Google Web Developer (right click and select Inspect) was used throughout the build from the very beginning. It was used to test responsiveness, to address issues relating to alignment, flow and to debug.</p>
+
+<p>My initial wireframes had a 2 col display on tablet and laptop, however I thought I was taking too long to get it to display how I wanted and as a result I resorted to having everything centred align. In future, for my MS2 I will be reading Bootstrap Documentation more throughly!
+
+
 
 ## Frameworks, Libraries & Programs Used
 <a href="https://getbootstrap.com/" target="_blank"><strong>Bootstrap</strong></a><br>
