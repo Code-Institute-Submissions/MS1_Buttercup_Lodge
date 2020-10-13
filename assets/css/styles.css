@@ -7,6 +7,10 @@
 
 /* ----------------------------------------------------------- GENERAL STYLES START ---- */
 
+.main {
+    margin: 0 auto;
+}
+
 .btn-success {
     color: #fff;
     margin-top: 2rem;
@@ -214,7 +218,6 @@ ul {
 /* ---- Styles included for index.html, accomodation.html, booknow.html and contact.html in here ---- */
 
 .intro-heading {
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -274,6 +277,13 @@ ul {
     background-size: cover;
     height:100%;
     border-radius: 50%;
+}
+
+.formstyle {
+    width: 600px;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 3.5em;
 }
 
 /* ---- Book Now! button styles for Accomodation page ---- */
