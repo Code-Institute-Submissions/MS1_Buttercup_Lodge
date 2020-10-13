@@ -8,7 +8,7 @@
 /* ----------------------------------------------------------- GENERAL STYLES START ---- */
 
 .main {
-    margin: 0 auto;
+    width: 100%;
 }
 
 .btn-success {
@@ -280,7 +280,6 @@ ul {
 }
 
 .formstyle {
-    width: 600px;
     padding: 1rem;
     margin: 0 auto;
     margin-top: 3.5em;
