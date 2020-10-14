@@ -34,17 +34,17 @@ The website will have a **Home**, an **Accomodation**, a **Contact** and a **Boo
 <p>
 The menu will be centred at the top of the pages below will sit a visual striking image. Each page will have its own dedicated hero image. The Home page will have an exterior image of the Lodge, the Accomodation page an image of a bedroom, the contact page will have an image of the location and finally Book Now will have an interior image to entice the website vistor to stay. Hopefully all imagery evokes the visitor to want to stay!
 </p>
-**Please note my wireframe designs differ slightly to my finished design**
+<strong>Please note the wireframe designs differ slightly to my finished design.</strong>
 
 [Wireframe 1](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Buttercup_Lodge_Home.png)
 
-[Wireframe 2](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Accomodation.png)
+[Wireframe 2](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Buttercup_Lodge_Accomodation.png)
 
-[Wireframe 3](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Stay_With_Us.png)
+[Wireframe 3](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Buttercup_Lodge_Stay_With_Us.png)
 
-[Wireframe 4](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Portrait.png)
+[Wireframe 4](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Tablet_Home_Portrait.png)
 
-[Wireframe 5](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Landscape.png)
+[Wireframe 5](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Tablet_Home_Landscape.png)
 
 <hr>
 
