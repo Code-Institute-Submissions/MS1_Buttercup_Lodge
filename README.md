@@ -36,11 +36,15 @@ The menu will be centred at the top of the pages below will sit a visual strikin
 </p>
 **Please note my wireframe designs differ slightly to my finished design**
 
-<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Home.png" target="_blank">Wireframe 1</a>
-<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Accomodation.png" target="_blank">Wireframe 2</a>
-<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Stay_With_Us.png" target="_blank">Wireframe 3</a>
-<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Portrait.png" target="_blank">Wireframe 4</a>
-<a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Landscape.png" target="_blank">Wireframe 5</a>
+[Wireframe 1](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Buttercup_Lodge_Home.png)
+
+[Wireframe 2](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Accomodation.png)
+
+[Wireframe 3](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Buttercup_Lodge_Stay_With_Us.png)
+
+[Wireframe 4](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Portrait.png)
+
+[Wireframe 5](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Landscape.png)
 
 <hr>
 
