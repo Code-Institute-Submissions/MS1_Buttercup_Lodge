@@ -1,319 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/ec17b3f2f5.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="icon" href="assets/images/favicon.png" />
-    <title>Buttercup Lodge | Book Now</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-      <button
-        class="navbar-toggler mx-auto"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="mr-4 nav-item">
-            <a class="nav-link hvr-underline-reveal" href="index.html">Home</a>
-          </li>
-          <li class="mr-4 nav-item">
-            <a class="nav-link hvr-underline-reveal" href="accommodation.html"
-              >Accommodation</a
-            >
-          </li>
-          <li class="mr-4 nav-item">
-            <a class="active nav-link hvr-underline-reveal" href="booknow.html"
-              >Book Now</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-reveal" href="contact.html"
-              >Contact</a
-            >
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
-      </div>
-    </nav>
-    <!-- Navbar End -->
-    <header>
-      <!-- Hero Image -->
-      <div id="hero_image_booknow">
-        <div class="hero_image_overlay">
-          <h1 id="logo"><a href="index.html"> Buttercup Lodge </a></h1>
-          <h4 class="text-center text-warning"><em>Donegal, Ireland.</em></h4>
-        </div>
-      </div>
-      <!-- Hero Image End -->
-    </header>
-    <!-- Booking Form -->
-    <main class="main">
-    <section>
-    <div class="col-sm">
-      <div class="row">
-          <div class="intro">
-            <h2 class="intro-heading text-center">Book Now!</h2>
-            <form class="formstyle">
-              <div class="form-group">
-                <label for="FirstName">First Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="FirstName"
-                  aria-describedby="emailHelp"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="LastName">Last Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="LastName"
-                  aria-describedby="emailHelp"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="ContactNumber">Contact Number</label>
-                <input
-                  type="tel"
-                  class="form-control"
-                  id="ContactNumber"
-                  aria-describedby="emailHelp"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="InputEmail">Email Address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="InputEmail"
-                  aria-describedby="emailHelp"
-                  required
-                />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-              <div class="form-group">
-                <label for="FormControlSelect"
-                  >How Many Nights Do You Wish To Stay?</label
-                >
-                <select class="form-control" id="FormControlSelect" required>
-                  <option value="" disabled selected hidden
-                    >Please Select Number Of Nights</option
-                  >
-                  <option value="1 night">1 Night</option>
-                  <option value="2 nights">2 Nights</option>
-                  <option value="3 nights">3 Nights</option>
-                  <option value="4 nights">4 Nights</option>
-                  <option value="5 nights">5 Nights</option>
-                  <option value="6 nights">6 Nights</option>
-                  <option value="7 nights">7 Nights</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="InputVisitDate"
-                  >When Would You Like To Visit?</label
-                >
-                <input
-                  type="Date"
-                  class="form-control"
-                  id="InputVisitDate"
-                  aria-describedby="emailHelp"
-                  required
-                />
-              </div>
-              <p>
-                Please Select Your Room Type - All Our Bedrooms are en-suite.
-              </p>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="bedroom"
-                  id="deluxeDouble"
-                  value="deluxeDouble"
-                  checked
-                  required
-                />
-                <label class="form-check-label" for="deluxeDouble">
-                  Deluxe Double
-                </label>
-              </div>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="bedroom"
-                  id="doubleRoom"
-                  value="doubleRoom"
-                />
-                <label class="form-check-label" for="doubleRoom">
-                  Double Room
-                </label>
-              </div>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="bedroom"
-                  id="accessibleRoom"
-                  value="accessibleRoom"
-                />
-                <label class="form-check-label" for="accessibleRoom">
-                  Accessible Room
-                </label>
-              </div>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="bedroom"
-                  id="familyRoom"
-                  value="familyRoom"
-                />
-                <label class="form-check-label" for="familyRoom">
-                  Family Room
-                </label>
-              </div>
-              <label for="textarea"
-                >Any aditional requirments you may need please let us
-                know.</label
-              >
-              <textarea class="form-control" id="textarea"></textarea>
-              <button type="submit" class="btn btn-success">Submit</button>
-              <button type="reset" class="btn btn-danger">Reset Form</button>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://kit.fontawesome.com/ec17b3f2f5.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="assets/css/styles.css" />
+      <link rel="icon" href="assets/images/favicon.png" />
+      <title>Buttercup Lodge | Home</title>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+         <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+               <li class="mr-4 nav-item">
+                  <a class="active nav-link hvr-underline-reveal" href="index.html">Home</a>
+               </li>
+               <li class="mr-4 nav-item">
+                  <a class="nav-link hvr-underline-reveal" href="accommodation.html">Accommodation</a>
+               </li>
+               <li class="mr-4 nav-item">
+                  <a class="nav-link hvr-underline-reveal" href="booknow.html">Book Now</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link hvr-underline-reveal" href="contact.html">Contact</a>
+               </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
-            <hr />
-          </div>
-            <!-- Booking Form End -->
-      </div>
-    </div>
-    </section>
-    </main>
-            <!-- Circle Image -->
-        <div id="center-about">
-          <div id="circle-container">
+         </div>
+      </nav>
+      <!-- Navbar End -->
+      <header>
+         <!-- Hero Image -->
+         <div id="hero_image_booknow">
+            <div class="hero_image_overlay">
+               <h1 id="logo"><a href="index.html"> Buttercup Lodge </a></h1>
+               <h4 class="text-center text-warning"><em>Donegal, Ireland.</em></h4>
+            </div>
+         </div>
+         <!-- Hero Image End -->
+      </header>
+      <!-- Booking Form -->
+      <main class="main">
+         <section>
+            <div class="col-sm">
+               <div class="row">
+                  <div class="intro">
+                     <h2 class="intro-heading text-center">Book Now!</h2>
+                     <form class="formstyle">
+                        <div class="form-group">
+                           <label for="FirstName">First Name</label>
+                           <input type="text" class="form-control" id="FirstName" aria-describedby="emailHelp" required/>
+                        </div>
+                        <div class="form-group">
+                           <label for="LastName">Last Name</label>
+                           <input type="text" class="form-control" id="LastName" aria-describedby="emailHelp" required/>
+                        </div>
+                        <div class="form-group">
+                           <label for="ContactNumber">Contact Number</label>
+                           <input type="tel" class="form-control" id="ContactNumber" aria-describedby="emailHelp" required/>
+                        </div>
+                        <div class="form-group">
+                           <label for="InputEmail">Email Address</label>
+                           <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required/>
+                           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                           <label for="FormControlSelect">How Many Nights Do You Wish To Stay?</label>
+                           <select class="form-control" id="FormControlSelect" required>
+                              <option value="" disabled selected hidden>Please Select Number Of Nights</option>
+                              <option value="1 night">1 Night</option>
+                              <option value="2 nights">2 Nights</option>
+                              <option value="3 nights">3 Nights</option>
+                              <option value="4 nights">4 Nights</option>
+                              <option value="5 nights">5 Nights</option>
+                              <option value="6 nights">6 Nights</option>
+                              <option value="7 nights">7 Nights</option>
+                              <option value="other">Other</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                           <label for="InputVisitDate">When Would You Like To Visit?</label>
+                           <input type="Date" class="form-control" id="InputVisitDate" aria-describedby="emailHelp" required/>
+                        </div>
+                        <p>
+                           Please Select Your Room Type - All Our Bedrooms are en-suite.
+                        </p>
+                        <div class="form-check">
+                           <input class="form-check-input" type="radio" name="bedroom" id="deluxeDouble" value="deluxeDouble" checked required/>
+                           <label class="form-check-label" for="deluxeDouble">
+                           Deluxe Double
+                           </label>
+                        </div>
+                        <div class="form-check">
+                           <input class="form-check-input" type="radio" name="bedroom" id="doubleRoom" value="doubleRoom"/>
+                           <label class="form-check-label" for="doubleRoom">
+                           Double Room
+                           </label>
+                        </div>
+                        <div class="form-check">
+                           <input class="form-check-input" type="radio" name="bedroom" id="accessibleRoom" value="accessibleRoom"/>
+                           <label class="form-check-label" for="accessibleRoom">
+                           Accessible Room
+                           </label>
+                        </div>
+                        <div class="form-check">
+                           <input class="form-check-input" type="radio" name="bedroom" id="familyRoom" value="familyRoom"/>
+                           <label class="form-check-label" for="familyRoom">
+                           Family Room
+                           </label>
+                        </div>
+                        <label for="textarea">Any aditional requirments you may need please let us know.</label>
+                        <textarea class="form-control" id="textarea"></textarea>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" class="btn btn-danger">Reset Form</button>
+                     </form>
+                     <hr />
+                  </div>
+                  <!-- Booking Form End -->
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- Circle Image -->
+      <div id="center-about">
+         <div id="circle-container">
             <div id="circle-cover-bg-booknow"></div>
-          </div>
-        </div>
-      <!-- Circle Image End -->
-    <!-- Footer -->
-    <footer class="container-fluid">
-      <div id="footer-details" class="row">
-        <div class="col-sm-4 lg-12">
-          <h3 class="general-sub text-center">Buttercup Lodge</h3>
-          <nav>
-            <p class="inline-block text-center">
-              <a href="index.html">Home</a> /
-              <a href="accommodation.html">Accommodation</a> /
-              <a href="booknow.html">Book Now</a> /
-              <a href="contact.html">Contact</a>
-            </p>
-          </nav>
-        </div>
-        <div class="col-sm-4 lg-12">
-          <h3 class="general-sub text-center">Contact</h3>
-          <address>
-            <p class="inline-block text-center">
-              Phone:<a href="https://wa.me/353861234567" target="_blank"
-                >086 1234 567</a
-              >
-              <a
-                href="mailto:info@buttercuplodge.com?subject=I'd%20like%20to%20make%20a%20booking%20enquiry"
-                target="_blank"
-                >info@buttercuplodge.com</a
-              >
-              <br />
-              Co. Donegal, Ireland.
-            </p>
-          </address>
-        </div>
-        <div class="col-sm-4 lg-12">
-          <h3 class="general-sub text-center">Social</h3>
-          <ul class="list-inline social-links text-center">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com" target="_blank">
-                <i class="fab fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.twitter.com" target="_blank">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://wa.me/353862222222" target="_blank">
-                <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                <span class="sr-only">WhatsApp</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com" target="_blank">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-          </ul>
-        </div>
+         </div>
       </div>
-    </footer>
-    <!-- Footer End -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <!-- Circle Image End -->
+      <!-- Footer -->
+      <footer class="container-fluid">
+         <div id="footer-details" class="row">
+            <div class="col-sm-4 lg-12">
+               <h3 class="general-sub text-center">Buttercup Lodge</h3>
+               <nav>
+                  <p class="inline-block text-center">
+                     <a href="index.html">Home</a> /
+                     <a href="accommodation.html">Accommodation</a> /
+                     <a href="booknow.html">Book Now</a> /
+                     <a href="contact.html">Contact</a>
+                  </p>
+               </nav>
+            </div>
+            <div class="col-sm-4 lg-12">
+               <h3 class="general-sub text-center">Contact</h3>
+               <address>
+                  <p class="inline-block text-center">
+                     Phone:<a href="https://wa.me/353861234567" target="_blank">086 1234 567</a>
+                     <a href="mailto:info@buttercuplodge.com?subject=I'd%20like%20to%20make%20a%20booking%20enquiry" target="_blank">info@buttercuplodge.com</a>
+                     <br />
+                     Co. Donegal, Ireland.
+                  </p>
+               </address>
+            </div>
+            <div class="col-sm-4 lg-12">
+               <h3 class="general-sub text-center">Social</h3>
+               <ul class="list-inline social-links text-center">
+                  <li class="list-inline-item">
+                     <a href="https://www.facebook.com" target="_blank">
+                     <i class="fab fa-facebook" aria-hidden="true"></i>
+                     <span class="sr-only">Facebook</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="https://www.twitter.com" target="_blank">
+                     <i class="fab fa-twitter" aria-hidden="true"></i>
+                     <span class="sr-only">Twitter</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="https://wa.me/353862222222" target="_blank">
+                     <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                     <span class="sr-only">WhatsApp</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="https://www.instagram.com" target="_blank">
+                     <i class="fab fa-instagram" aria-hidden="true"></i>
+                     <span class="sr-only">Instagram</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+      <!-- Footer End -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   </body>
 </html>
