@@ -165,7 +165,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <p>Google Web Developer (right click and select Inspect) was used throughout the build from the very beginning. It was used to test responsiveness, to address issues relating to alignment, flow and to debug.</p>
 
-<p>My initial wireframes had a 2 col display on tablet and laptop, however I thought I was taking too long to get it to display how I wanted and as a result I resorted to having everything centred align. In future, for my MS2 I will be reading Bootstrap Documentation more throughly!
+<p>My initial wireframes had a 2 col display on tablet and laptop, however I thought I was taking too long to get it to display how I wanted and as a result I resorted to having everything centred align. In future, for my MS2 I will be reading Bootstrap Documentation more thoroughly!
 
 
 
@@ -211,7 +211,7 @@ I found these sites in particular to be very influential in terms of building an
 In order to to find out best practices for code struture I found this article quite useful. https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing 
 <br>
 
-I wanted to do something a bit different with a mailto link to generate a good UX so I figured out how to generate an automatic subject line by reading this. Turns how it's not hard at all! https://www.campaignmonitor.com/resources/knowledge-base/how-do-you-add-a-subject-to-a-mailto/ 
+I wanted to do something a bit different with a mailto link to generate a good UX so I figured out how to generate an automatic subject line by reading this. Turns out it's not hard at all! https://www.campaignmonitor.com/resources/knowledge-base/how-do-you-add-a-subject-to-a-mailto/ 
 <br>
 
 Read Bootstraps Documentation on grid, form and menu best practices https://getbootstrap.com/docs/4.5/getting-started/introduction/
