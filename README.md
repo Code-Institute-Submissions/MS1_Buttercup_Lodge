@@ -123,6 +123,34 @@ As per my wireframes the navbar was seated just underneath the hero image, altho
 Initially I just had a regular hover effect where by the colour just snaps off and then I was reminded of the nice effects on <a href="https://ianlunn.github.io/Hover/" target="_blank">Hover.css.</a>
 So for the effect on my navbar, I used "Underline Reveal". 
 
+# Features
+
+The website is responsive across all platforms. A collapseable menu with a search bar adds to this feature.
+<img src="assets/wireframes/responsiveimage.png">
+Striking visual imagery creates "welcoming" feeling with the user as they navigate throughout the site.
+
+<p>
+The Accomodation Page has a list of features that all of the rooms has. An implemented Bootstrap Carousel with imagery of all the bedrooms makes it easier for visitors to see what's on offer at a glance.
+</p>
+<p>
+A large "BOOK NOW" button entices the visitor to click after seeing the image of the breakfast and then of the beedrooms.
+</p>
+<img src="assets/wireframes/carousel.png">
+<p>
+The BOOK NOW and CONTACT pages have forms with all of the necessary fields you'd expect on a form.
+</p>
+<img src="assets/wireframes/form.png">
+<p>
+To give the site a personal touch, I added an automatic generated email subject line as well as a favicon. The Phone number in the footer, when tapped or clicked opens up WhatsApp.
+</p>
+
+## Features I'd like to add if I had the time or skillset
+1. An interactive map
+2. Instead of a hero image it would be very nice if I had a video as a background
+3. An instant messanger
+4. A feature so users can sign up to special offers
+
+
 # Technologies Used
 ## Languages Used
 <ul>
