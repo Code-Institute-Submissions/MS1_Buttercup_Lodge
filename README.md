@@ -42,6 +42,7 @@ The menu will be centred at the top of the pages below will sit a visual strikin
 <a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Portrait.png" target="_blank">Wireframe 4</a>
 <a href src="https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/Tablet_Home_Landscape.png" target="_blank">Wireframe 5</a>
 
+<hr>
 
 # User Stories
 
@@ -69,10 +70,10 @@ The menu will be centred at the top of the pages below will sit a visual strikin
 # UX Design
 It's far easier to generate a good UX experience if you keep your design process simple. 
 <ul>
-    <li>Users are easily reminded where they are by having an "active" state on the navbar item
-    <li>By using a fixed top position on the navbar the menu is always within ease of access and are never "lost". They know where they are and how to get back to where they were
-    <li>The design is consistant across all pages, which makes it easy for the user to navigate around the website
-    <li>By adding an automatic generated email subject line takes this hassel out of the customer as I've seen people literally take 2 minutes to decicde on an appropriate subject line and just resort to "Hello"
+    <li>Users are easily reminded where they are by having an "active" state on the navbar item.
+    <li>By using a fixed top position on the navbar the menu is always within ease of access and are never "lost". They know where they are and how to get back to where they were.
+    <li>The design is consistant across all pages, which makes it easy for the user to navigate around the website.
+    <li>By adding an automatic generated email subject line takes the hassel out of the customer as I've seen people literally take 2 minutes to decicde on an appropriate subject line and just resort to "Hello".
 </ul>
 
 Link to the booking form located <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/booknow.html" target="_blank">here.</a>
@@ -172,7 +173,7 @@ I found these sites in particular to be very influential in terms of building an
 <a href="https://www.abbeytavern.ie/" target="_blank">Abbey Tavern</a><br>
 <a href="https://www.clontarfcastle.ie/" target="_blank">Clontarf Castle</a><br>
 <a href="https://www.awwwards.com/" target="_blank">Awwwards</a><br>
-<a href="https://www.lucknampark.co.uk/" target="_blank">lucknam Park</a>
+<a href="https://www.lucknampark.co.uk/" target="_blank">Lucknam Park</a>
 
 ### Documentation
 In order to to find out best practices for code struture I found this article quite useful. https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing 
@@ -188,6 +189,26 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 <p>
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/mickmccann/MS1_Buttercup_Lodge.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 </p>
+
+## GitHub Pages
+
+To make the website live using GitHub Pages, I followed these steps:
+
+1. I clicked on the settings icon.
+
+<img src="assets/wireframes/Capture.PNG">
+
+2. Scrolled down to the GitHub Pages section.
+
+<img src="assets/wireframes/Capture2.PNG">
+
+3. I then clicked on the Branch tab, selected Master and then Save.
+
+<img src="assets/wireframes/Capture3.PNG">
+
+4. I copied the generated link and pasted it into the About section.
+
+<img src="assets/wireframes/Capture4.PNG">
 
 # Credits
 Content on the <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/index.html" target="_blank">Homepage</a> and <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/index.html" target="_blank">Accomodation</a> were adapted from the <a href="https://www.clontarfcastle.ie/" target="_blank">Clontarf Castle</a><br> website, while quotes on the Homepage were made up by me.
