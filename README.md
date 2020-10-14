@@ -135,7 +135,7 @@ The Accomodation Page has a list of features that all of the rooms has. An imple
 <p>
 A large "BOOK NOW" button entices the visitor to click after seeing the image of the breakfast and then of the beedrooms.
 </p>
-<img src="assets/wireframes/carousel.png">
+<img src="assets/wireframes/booknow.png">
 <p>
 The BOOK NOW and CONTACT pages have forms with all of the necessary fields you'd expect on a form.
 </p>
