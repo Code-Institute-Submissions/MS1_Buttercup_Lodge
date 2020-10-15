@@ -6,11 +6,13 @@
 Fictitious website created for education purposes.
 
 <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/" target="_blank"> Click here to view a live website of the Buttercup Lodge</a>
-<img src="assets/wireframes/projectimage.png">
+
+![Project Image](assets/wireframes/projectimage.png)
+
 
 The aim of this project was to build a responsive static website using HTML5 and CSS3. 
 
-<img src="assets/wireframes/responsiveimage.png">
+![Responsive Image](assets/wireframes/responsiveimage.png)
 
 <a href="http://ami.responsivedesign.is/?url=https%3A%2F%2Fmickmccann.github.io%2FMS1_Buttercup_Lodge%2Findex.html" target="_blank">Image generated using Am I Responsive</a>
 
@@ -36,15 +38,15 @@ The menu will be centred at the top of the pages below will sit a visual strikin
 </p>
 <strong>Please note the wireframe designs differ slightly to my finished design.</strong>
 
-[Wireframe 1](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Buttercup_Lodge_Home.png)
+[Wireframe 1](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/buttercup_lodge_home.png)
 
-[Wireframe 2](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Buttercup_Lodge_Accomodation.png)
+[Wireframe 2](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/buttercup_lodge_accomodation.png)
 
-[Wireframe 3](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Buttercup_Lodge_Stay_With_Us.png)
+[Wireframe 3](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/buttercup_lodge_stay_with_us.png)
 
-[Wireframe 4](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Tablet_Home_Portrait.png)
+[Wireframe 4](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/tablet_home_portrait.png)
 
-[Wireframe 5](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/Tablet_Home_Landscape.png)
+[Wireframe 5](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/tablet_home_landscape.png)
 
 <hr>
 
@@ -74,6 +76,7 @@ As a user, I expect to see -
     <li>If there's any change regarding breakfast cost.
     <li>If they are fully booked out or not.
     <li>The layout and content is the same.
+    <li>Things are where they are when I last visited. So I can easily find the information I'm looking for.
     <li>If contact information is the same.
 </ul>
 
@@ -87,7 +90,7 @@ It's far easier to generate a good UX experience if you keep your design process
 </ul>
 
 Link to the booking form located <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/booknow.html" target="_blank">here.</a>
-<img src="assets/wireframes/Booknowscreenshot1.png">
+<img src="assets/wireframes/Booknowscreenshot1.png" alt="Book Now screenshot">
 
 # Structure - Design Process
 
@@ -109,7 +112,7 @@ I felt this complimented the style for what I was trying to achieve than the log
 
 
 As you can see from the earlier logo, I got bogged down with feature creep! I was using dropshadows and outline on the text. It didn't look great.<br> 
-<img src="assets/wireframes/oldlogo.jpg">
+<img src="assets/wireframes/oldlogo.jpg" alt="Image of old logo used">
 
 ### Body Styles
     color: #666;
@@ -132,7 +135,7 @@ So for the effect on my navbar, I used "Underline Reveal".
 # Features
 
 The website is responsive across all platforms. A collapseable menu with a search bar adds to this feature.
-<img src="assets/wireframes/responsiveimage.png">
+<img src="assets/wireframes/responsiveimage.png" alt="Responsive image">
 Striking visual imagery creates "welcoming" feeling with the user as they navigate throughout the site.
 
 <p>
@@ -164,15 +167,75 @@ To give the site a personal touch, I added an automatic generated email subject 
     <li>CSS3
 </ul>
 
-# Testing
+# Testing Phase
+## First Time Visitor Goals
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no errors in the project. There are however a couple of warnings.
+Whether the website was sent to the user, found through a search result,the user wants to easily understand the main purpose of the site.
+
+When entering the website, the user is greeted with a large image of the lodge. With a clean and easily navigational menu that's fixed to the top of the screen makes the user feel reasurred that they are never lost. An "Active" state on the menu reminds the user what page they are on.
+
+The main points are made immediately on the front page as to the sites purpose and what is offered.
+
+The user can view more details by clicking through to the various pages and subsequently the BOOK NOW page should they wish to stay.
+
+The user wants to be able to easily be able to navigate throughout the site to find content.
+
+The BOOK NOW / CONTACT page allows the user to use a form to make a booking or to contact the Lodge. Users aren't permitted to submit the form unless all required fields are filled.
+
+The footer page has contact details, menu links and social network links.
+
+More information can be found on the Accommodation page with inviting imagery of bedrooms and breakfast.
+
+<table>
+<tr>
+    <th>TEST</th>
+    <th>EXPECTED OUTCOME</th>
+    <th>PASS / FAIL</th>
+  </tr>
+  <tr>
+    <td>Menu / Burger Menu</td>
+    <td>When tapped menu items are revealed. When tapped again menu items disappear.</td>
+    <td>Passed</td>
+  </tr>
+  <tr>
+    <td>Social Network</td>
+    <td>When clicked or tapped on, social network pages open in a new page.</td>
+    <td>Passed</td>
+  </tr>
+  <tr>
+    <td>WhatsApp</td>
+    <td>When tapped on in mobile WhatsApp opens.</td>
+    <td>Passed</td>
+  </tr>
+  <tr>
+    <td>Forms</td>
+    <td>To build an ease-of-us booking and contact form. If a users tries to submit a form without filling out a required field, they are reminded by a notification on-screen</td>
+    <td>Passed</td>
+  </tr>
+  <tr>
+    <td>Responsiveness</td>
+    <td>To test whether or not website is responsive across all platforms. For example: On tablet, when viewed in landscape, menu is in full view. When viewed in portrait mode, menu collapses to a button.</td>
+    <td>Passed</td>
+  </tr>
+  <tr>
+    <td>Imagery</td>
+    <td>To make sure images respond whether view on mobile, tablet or larger screens</td>
+    <td>Passed</td>
+  </tr>
+</table>
+
+<p>The website was tested across multiple browsers (Chrome, Safari, Edge, FireFox) and on multiple mobile devices (iPhone 5, 6, 11: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. <br>
+Initially I found it a bit of a struggle trying to get the website to display exactly how it was intended across all devices. But in the end, I did achieve the desired results.
+</p>
 
 <p>Google Web Developer (right click and select Inspect) was used throughout the build from the very beginning. It was used to test responsiveness, to address issues relating to alignment, flow and to debug.</p>
 
+<p>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no errors in the project. There are however a couple of warnings.
+
 <p>My initial wireframes had a 2 col display on tablet and laptop, however I thought I was taking too long to get it to display how I wanted and as a result I resorted to having everything centred align. In future, for my MS2 I will be reading Bootstrap Documentation more thoroughly!
 
-## Frameworks, Libraries & Programs Used
+
+# Frameworks, Libraries & Programs Used
 <a href="https://getbootstrap.com/" target="_blank"><strong>Bootstrap</strong></a><br>
 Bootstrap was used to assist with the responsiveness (i.e. On mobile devices menu collapses down to a square button) and styling of the website.
 
