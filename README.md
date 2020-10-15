@@ -157,8 +157,8 @@ To give the site a personal touch, I added an automatic generated email subject 
 4. A feature so users can sign up to special offers.
 
 
-# Technologies Used
-## Languages Used
+# Languages Used
+
 <ul>
     <li>HTML5
     <li>CSS3
