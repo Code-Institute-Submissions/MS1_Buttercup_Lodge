@@ -50,25 +50,31 @@ The menu will be centred at the top of the pages below will sit a visual strikin
 
 # User Stories
 
-### As a potential customer one expects to see:
+### Potential Customer: 
+
+As a user, I expect to see -
 <ul>
-    <li>Where the Buttercup Lodge is located
-    <li>Photographs of rooms
-    <li>How much it costs to stay in the Lodge
-    <li>A booking form and a contact form
-    <li>A calendar to select a date
-    <li>To select how many nights I want to stay for
-    <li>Phone numbers
-    <li>Testimonial quotes from sadisfied customers
-    <li>Social networks links
+    <li>Where the Buttercup Lodge is located.
+    <li>Photographs of rooms.
+    <li>How much it costs to stay in the Lodge.
+    <li>A booking form and a contact form.
+    <li>A calendar to select a date.
+    <li>To select how many nights I want to stay for.
+    <li>Phone numbers.
+    <li>Testimonial quotes from sadisfied customers.
+    <li>Social networks links.
 </ul>
 
-### As a returning customer one expects to see:
+### Returning Customer: 
+
+As a user, I expect to see -
 <ul>
-    <li>If there's any change in prices
-    <li>If there's any special offers
-    <li>If there's any change regarding breakfast cost
-    <li>If they are fully booked out or not
+    <li>If there's any change in prices.
+    <li>If there's any special offers.
+    <li>If there's any change regarding breakfast cost.
+    <li>If they are fully booked out or not.
+    <li>The layout and content is the same.
+    <li>If contact information is the same.
 </ul>
 
 # UX Design
@@ -145,10 +151,10 @@ To give the site a personal touch, I added an automatic generated email subject 
 </p>
 
 ## Features I'd like to add if I had the time or skillset
-1. An interactive map
-2. Instead of a hero image it would be very nice if I had a video as a background
-3. An instant messanger
-4. A feature so users can sign up to special offers
+1. An interactive map.
+2. Instead of a hero image it would be very nice if I had a video as a background.
+3. An instant messanger.
+4. A feature so users can sign up to special offers.
 
 
 # Technologies Used
@@ -156,7 +162,6 @@ To give the site a personal touch, I added an automatic generated email subject 
 <ul>
     <li>HTML5
     <li>CSS3
-    <li>Bootstrap4.5
 </ul>
 
 # Testing
@@ -166,8 +171,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <p>Google Web Developer (right click and select Inspect) was used throughout the build from the very beginning. It was used to test responsiveness, to address issues relating to alignment, flow and to debug.</p>
 
 <p>My initial wireframes had a 2 col display on tablet and laptop, however I thought I was taking too long to get it to display how I wanted and as a result I resorted to having everything centred align. In future, for my MS2 I will be reading Bootstrap Documentation more thoroughly!
-
-
 
 ## Frameworks, Libraries & Programs Used
 <a href="https://getbootstrap.com/" target="_blank"><strong>Bootstrap</strong></a><br>
@@ -243,10 +246,10 @@ To make the website live using GitHub Pages, I followed these steps:
 <img src="assets/wireframes/Capture4.PNG">
 
 # Credits
-Content on the <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/index.html" target="_blank">Homepage</a> and <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/index.html" target="_blank">Accomodation</a> were adapted from the <a href="https://www.clontarfcastle.ie/" target="_blank">Clontarf Castle</a><br> website, while quotes on the Homepage were made up by me.
+Content on the <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/index.html" target="_blank">Homepage</a> and <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/index.html" target="_blank">Accomodation</a> were adapted from the <a href="https://www.clontarfcastle.ie/" target="_blank">Clontarf Castle</a>.
 
 # Media
 <a href="https://unsplash.com/" target="_blank">Unsplash.</a><br> Unsplash was used to source all imagery for the website.
 
 # Acknowledgements
-Thanks to my mentor Brian Macharia for his guidence and feedback and to the guys on Slack.
+Thanks to my mentor Brian Macharia for his guidence and feedback and to Neringa on Slack.
