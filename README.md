@@ -7,12 +7,12 @@ Fictitious website created for education purposes.
 
 <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/" target="_blank"> Click here to view a live website of the Buttercup Lodge</a>
 
-![Project Image](assets/wireframes/projectimage.png)
+![Project Image](wireframes/projectimage.png)
 
 
 The aim of this project was to build a responsive static website using HTML5 and CSS3. 
 
-![Responsive Image](assets/wireframes/responsiveimage.png)
+![Responsive Image](wireframes/responsiveimage.png)
 
 <a href="http://ami.responsivedesign.is/?url=https%3A%2F%2Fmickmccann.github.io%2FMS1_Buttercup_Lodge%2Findex.html" target="_blank">Image generated using Am I Responsive</a>
 
@@ -38,15 +38,15 @@ The menu will be centred at the top of the pages below will sit a visual strikin
 </p>
 <strong>Please note the wireframe designs differ slightly to my finished design.</strong>
 
-[Wireframe 1](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/buttercup_lodge_home.png)
+[Wireframe 1](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/wireframes/buttercup_lodge_home.png)
 
-[Wireframe 2](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/buttercup_lodge_accomodation.png)
+[Wireframe 2](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/wireframes/buttercup_lodge_accomodation.png)
 
-[Wireframe 3](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/buttercup_lodge_stay_with_us.png)
+[Wireframe 3](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/wireframes/buttercup_lodge_stay_with_us.png)
 
-[Wireframe 4](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/tablet_home_portrait.png)
+[Wireframe 4](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/wireframes/tablet_home_portrait.png)
 
-[Wireframe 5](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/assets/wireframes/tablet_home_landscape.png)
+[Wireframe 5](https://github.com/mickmccann/MS1_Buttercup_Lodge/blob/master/wireframes/tablet_home_landscape.png)
 
 <hr>
 
@@ -90,7 +90,8 @@ It's far easier to generate a good UX experience if you keep your design process
 </ul>
 
 Link to the booking form located <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/booknow.html" target="_blank">here.</a>
-<img src="assets/wireframes/Booknowscreenshot1.png" alt="Book Now screenshot">
+
+![Book Now screenshot](wireframes/booknowscreenshot1.png)
 
 # Structure - Design Process
 
@@ -112,7 +113,9 @@ I felt this complimented the style for what I was trying to achieve than the log
 
 
 As you can see from the earlier logo, I got bogged down with feature creep! I was using dropshadows and outline on the text. It didn't look great.<br> 
-<img src="assets/wireframes/oldlogo.jpg" alt="Image of old logo used">
+
+![Image of old logo](wireframes/oldlogo.jpg)
+
 
 ### Body Styles
     color: #666;
@@ -135,23 +138,22 @@ So for the effect on my navbar, I used "Underline Reveal".
 # Features
 
 The website is responsive across all platforms. A collapseable menu with a search bar adds to this feature.
-<img src="assets/wireframes/responsiveimage.png" alt="Responsive image">
+
+![Responsive image](wireframes/responsiveimage.png)
+
 Striking visual imagery creates "welcoming" feeling with the user as they navigate throughout the site.
 
-<p>
 The Accomodation Page has a list of features that all of the rooms has. An implemented Bootstrap Carousel with imagery of all the bedrooms makes it easier for visitors to see what's on offer at a glance.
-</p>
-<p>
+
 A large "BOOK NOW" button entices the visitor to click after seeing the image of the breakfast and then of the beedrooms.
-</p>
-<img src="assets/wireframes/booknow.png">
-<p>
+
+![Book now page](wireframes/booknow.png)
+
 The BOOK NOW and CONTACT pages have forms with all of the necessary fields you'd expect on a form.
-</p>
-<img src="assets/wireframes/form.png">
-<p>
+
+![Booking form](wireframes/form.png)
+
 To give the site a personal touch, I added an automatic generated email subject line as well as a favicon. The Phone number in the footer, when tapped or clicked opens up WhatsApp.
-</p>
 
 ## Features I'd like to add if I had the time or skillset
 1. An interactive map.
@@ -294,19 +296,19 @@ To make the website live using GitHub Pages, I followed these steps:
 
 1. I clicked on the settings icon.
 
-<img src="assets/wireframes/Capture.PNG">
+![GitHub pages instructions](wireframes/capture.PNG)
 
 2. Scrolled down to the GitHub Pages section.
 
-<img src="assets/wireframes/Capture2.PNG">
+![GitHub pages instructions](wireframes/capture2.PNG)
 
 3. I then clicked on the Branch tab, selected Master and then Save.
 
-<img src="assets/wireframes/Capture3.PNG">
+![GitHub pages instructions](wireframes/capture3.PNG)
 
 4. I copied the generated link and pasted it into the About section.
 
-<img src="assets/wireframes/Capture4.PNG">
+![GitHub pages instructions](wireframes/capture4.PNG)
 
 # Credits
 Content on the <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/index.html" target="_blank">Homepage</a> and <a href="https://mickmccann.github.io/MS1_Buttercup_Lodge/index.html" target="_blank">Accomodation</a> were adapted from the <a href="https://www.clontarfcastle.ie/" target="_blank">Clontarf Castle</a>.
